@@ -24,51 +24,50 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
+    name: 'Riya Sharma',
+    position: 'Full Stack Developer',
     img: 'assets/review1.png',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'Working with Parv was an amazing experience. He built our product management system from scratch using the MERN stack, ensuring it was fast, responsive, and easy to use. His attention to detail and ability to turn ideas into a polished product was outstanding.',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
+    name: 'Amit Verma',
+    position: 'Software Developer at Tech Innovations',
     img: 'assets/review2.png',
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'Parv’s expertise in full stack development truly stands out. He delivered a robust e-commerce platform with React, Node, and MongoDB that boosted our sales significantly. He also integrated admin tools for easy inventory management. A true professional!',
   },
   {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
+    name: 'Rahul Bhatija',
+    position: 'Skeleton Clothing Co.',
     img: 'assets/review3.png',
     review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      'Parv handled our complex healthcare web app project with ease. From API integration to responsive UI design using Tailwind CSS, he ensured the entire system was smooth and bug-free. His problem-solving skills and technical depth are impressive.',
   },
   {
     id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
+    name: 'Aditya Seth',
+    position: 'CEO of Aharkosh',
     img: 'assets/review4.png',
     review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'Parv exceeded all our expectations. He developed a feature-rich admin panel with user roles and data visualization, making our operations far more efficient. His MERN stack expertise and clean coding style make him a go-to developer for any serious project.',
   },
 ];
+
 
 export const myProjects = [
   {
     title: 'Medimind - AI HealthCare Assistant',
-    desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
-    subdesc:
-      'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
+    desc: 'MediMind is an AI-powered healthcare assistant built using the MERN stack. It helps users check symptoms, get possible condition insights, receive treatment suggestions, and set medicine reminders. The app supports multilingual responses, pill identification, and appointment booking, making healthcare information more accessible and personalized',
     href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
     texture: '/textures/project/project1.mp4',
-    logo: '/assets/project-logo1.png',
-    logoStyle: {
-      backgroundColor: '#2A1816',
-      border: '0.2px solid #36201D',
-      boxShadow: '0px 0px 60px 0px #AA3C304D',
+    logo: '/assets/project-logo3.png',
+   logoStyle: {
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
     },
     spotlight: '/assets/spotlight1.png',
     tags: [
@@ -82,11 +81,11 @@ export const myProjects = [
         name: 'TailwindCSS',
         path: 'assets/tailwindcss.png',
       },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
+      // {
+      //   id: 3,
+      //   name: 'TypeScript',
+      //   path: '/assets/typescript.png',
+      // },
       {
         id: 4,
         name: 'Framer Motion',
@@ -95,10 +94,8 @@ export const myProjects = [
     ],
   },
   {
-    title: 'LiveDoc - Real-Time Google Docs Clone',
-    desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-    subdesc:
-      'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+    title: 'AI Prep - Real-time Interview Preparation',
+    desc: 'AI Prep is a MERN stack application that simulates real-time interviews with AI-powered voice interaction. The AI asks industry-relevant questions in speech mode, listens to user responses, and provides instant feedback to help improve communication, confidence, and interview readiness.',
     href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
@@ -132,20 +129,20 @@ export const myProjects = [
     ],
   },
   {
-    title: 'CarePulse - Health Management System',
-    desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-    subdesc:
-      'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+    title: 'Chess.com',
+    desc: 'A real-time multiplayer chess game built with Node.js, featuring an interactive board, move validation, and seamless gameplay. Designed to replicate the core experience of Chess.com with a clean and responsive UI',
+    // subdesc:
+    //   'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
     href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
     texture: '/textures/project/project3.mp4',
-    logo: '/assets/project-logo3.png',
-    logoStyle: {
-      backgroundColor: '#60f5a1',
-      background:
-        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-      border: '0.2px solid rgba(208, 213, 221, 1)',
-      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
-    },
+    logo: '/assets/image.png',
+    // logoStyle: {
+    //   backgroundColor: '#60f5a1',
+    //   background:
+    //     'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+    //   border: '0.2px solid rgba(208, 213, 221, 1)',
+    //   boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+    // },
     spotlight: '/assets/spotlight3.png',
     tags: [
       {
@@ -260,29 +257,32 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'Aaharkosh',
+    pos: 'React Developer Intern',
+    duration: '2023',
+    title:
+      'Worked as a React Developer at Aaharkosh, contributing to building scalable and responsive web applications. Implemented interactive UI components, optimized performance, and collaborated with backend teams to deliver smooth user experiences.',
+    icon: '/assets/image3.png',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
-    pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    name: 'RGPV Hackathon',
+    pos: '2nd Position Winner',
+    duration: '2023',
+    title:
+      'Secured 2nd position at RGPV Hackathon by developing an AI-powered healthcare and wellness platform using the MERN stack. Focused on AI symptom checking, real-time features, and intuitive UI design.',
+    icon: '/assets/image2.png',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
+    name: 'Ghosted Club',
+    pos: 'Freelance Web Developer',
+    duration: '2024',
+    title:
+      'Designed and developed the Ghosted Club website using Shopify. Delivered a fully functional, responsive, and SEO-optimized online store, ensuring smooth product management and a visually engaging shopping experience.',
+    icon: '/assets/image.jpg',
     animation: 'salute',
   },
 ];

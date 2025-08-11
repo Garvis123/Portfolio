@@ -37,9 +37,9 @@ const WorkExperience = () => {
                   onPointerOver={() => setAnimationName(item.animation.toLowerCase())}
                   onPointerOut={() => setAnimationName('idle')}
                   className="work-content_container group">
-                  <div className="flex flex-col h-full justify-start items-center py-2">
+                  <div className="flex flex-col object-contain h-full justify-start items-center py-2">
                     <div className="work-content_logo">
-                      <img className="w-full h-full" src={item.icon} alt="" />
+                      <img className="w-full justify-center h-full rounded-lg" src={item.icon} alt="" />
                     </div>
 
                     <div className="work-content_bar" />
