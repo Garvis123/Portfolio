@@ -61,7 +61,7 @@ export const myProjects = [
   {
     title: 'Medimind - AI HealthCare Assistant',
     desc: 'MediMind is an AI-powered healthcare assistant built using the MERN stack. It helps users check symptoms, get possible condition insights, receive treatment suggestions, and set medicine reminders. The app supports multilingual responses, pill identification, and appointment booking, making healthcare information more accessible and personalized',
-    href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+    href: '',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo3.png',
    logoStyle: {
@@ -96,7 +96,7 @@ export const myProjects = [
   {
     title: 'AI Prep - Real-time Interview Preparation',
     desc: 'AI Prep is a MERN stack application that simulates real-time interviews with AI-powered voice interaction. The AI asks industry-relevant questions in speech mode, listens to user responses, and provides instant feedback to help improve communication, confidence, and interview readiness.',
-    href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+    href: '',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/project-logo2.png',
     logoStyle: {
@@ -133,7 +133,7 @@ export const myProjects = [
     desc: 'A real-time multiplayer chess game built with Node.js, featuring an interactive board, move validation, and seamless gameplay. Designed to replicate the core experience of Chess.com with a clean and responsive UI',
     // subdesc:
     //   'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+    href: '',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/image.png',
     // logoStyle: {
