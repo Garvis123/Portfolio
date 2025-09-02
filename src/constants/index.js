@@ -58,10 +58,45 @@ export const clientReviews = [
 
 
 export const myProjects = [
+ {
+    title: 'AI Resume Analyzer - Real-time Resume Preparation',
+    desc: 'Build an AI-powered Resume Analyzer with React, React Router, and Puter.js! Implement seamless auth, upload and store resumes, and match candidates to jobs using smart AI evaluations.',
+    href: 'https://resume-analyser-eight-beta.vercel.app/',
+    texture: '/textures/project/project2.mp4',
+    logo: '/assets/project-logo2.png',
+    logoStyle: {
+      backgroundColor: '#13202F',
+      border: '0.2px solid #17293E',
+      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'TypeScript',
+        path: '/assets/typescript.png',
+      },
+      {
+        id: 4,
+        name: 'Framer Motion',
+        path: '/assets/framer.png',
+      },
+    ],
+  } ,
   {
     title: 'Medimind - AI HealthCare Assistant',
     desc: 'MediMind is an AI-powered healthcare assistant built using the MERN stack. It helps users check symptoms, get possible condition insights, receive treatment suggestions, and set medicine reminders. The app supports multilingual responses, pill identification, and appointment booking, making healthcare information more accessible and personalized',
-    href: '',
+    href: 'https://github.com/Garvis123/Medimind.git',
     texture: '/textures/project/project1.mp4',
     logo: '/assets/project-logo3.png',
    logoStyle: {
@@ -93,47 +128,13 @@ export const myProjects = [
       },
     ],
   },
+  
   {
-    title: 'AI Prep - Real-time Interview Preparation',
-    desc: 'AI Prep is a MERN stack application that simulates real-time interviews with AI-powered voice interaction. The AI asks industry-relevant questions in speech mode, listens to user responses, and provides instant feedback to help improve communication, confidence, and interview readiness.',
-    href: '',
-    texture: '/textures/project/project2.mp4',
-    logo: '/assets/project-logo2.png',
-    logoStyle: {
-      backgroundColor: '#13202F',
-      border: '0.2px solid #17293E',
-      boxShadow: '0px 0px 60px 0px #2F6DB54D',
-    },
-    spotlight: '/assets/spotlight2.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
-      {
-        id: 4,
-        name: 'Framer Motion',
-        path: '/assets/framer.png',
-      },
-    ],
-  },
-  {
-    title: 'Chess.com',
-    desc: 'A real-time multiplayer chess game built with Node.js, featuring an interactive board, move validation, and seamless gameplay. Designed to replicate the core experience of Chess.com with a clean and responsive UI',
+    title: 'Mechvistas',
+    desc: 'Developed a petrol pump management web application with user authentication, dashboards, blog management, and contact forms using EJS for server-side rendering, following MVC architecture and serving static assets via a public directory.',
     // subdesc:
     //   'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-    href: '',
+    href: 'https://mechvistas.onrender.com/',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/image.png',
     // logoStyle: {
@@ -145,21 +146,21 @@ export const myProjects = [
     // },
     spotlight: '/assets/spotlight3.png',
     tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
+      // {
+      //   id: 1,
+      //   name: 'React.js',
+      //   path: '/assets/react.svg',
+      // },
       {
         id: 2,
         name: 'TailwindCSS',
         path: 'assets/tailwindcss.png',
       },
-      {
-        id: 3,
-        name: 'TypeScript',
-        path: '/assets/typescript.png',
-      },
+      // {
+      //   id: 3,
+      //   name: 'TypeScript',
+      //   path: '/assets/typescript.png',
+      // },
       {
         id: 4,
         name: 'Framer Motion',
